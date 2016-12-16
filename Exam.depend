@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1446667744 source:c:\users\bartw\documents\git_pls\exam\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1481886169 source:c:\users\bartw\documents\git_pls\exam\input.c
+	<stdio.h>
+	<conio.h>
+	"input.h"
+	<stdbool.h>
+	<stdlib.h>
+
+1481886405 c:\users\bartw\documents\git_pls\exam\input.h
+	<stdbool.h>
+
