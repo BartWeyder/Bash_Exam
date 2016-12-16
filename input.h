@@ -9,6 +9,7 @@ typedef struct student {
     char student_group_code [4];
     float student_mark;
     bool student_exam_passed;
+    struct student* student_next;
 } STUDENT_INFO;
 
 //structure for teacher
@@ -16,6 +17,7 @@ typedef struct teacher {
     char teacher_name [50];
     char teacher_surname[50];
     char teacher_subject [50];
+    struct teacher* teacher_next;
 } TEACHER_INFO;
 
 //structure for exam
